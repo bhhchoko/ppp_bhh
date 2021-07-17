@@ -1,0 +1,40 @@
+<html>
+<body>
+  <h1>Predict credit risk</h1>
+    <h3>enter the following values to predict the risk</h3>
+
+<form method="POST" , action="{{ url_for('predict')}}" >
+     <input type="text" name="a" placeholder="person age" required="required" />
+     <input type="text" name="b" placeholder="person income" required="required" />
+     <input type="text" name="c" placeholder="person_emp_length" required="required" />
+     <input type="text" name="d" placeholder="loan amount" required="required" />
+     <input type="text" name="e" placeholder="loan intrate" required="required" />
+     <input type="text" name="f" placeholder="loan percent income" required="required" />
+     <input type="text" name="g" placeholder="cb_person_cred_hist_length" required="required" />
+     <input type="text" name="h" placeholder="person_home_ownership_MORTGAGE" required="required" />
+     <input type="text" name="i" placeholder="person_home_ownership_OTHER" required="required" />
+     <input type="text" name="j" placeholder="person_home_ownership_OWN" required="required" />
+     <input type="text" name="k" placeholder="person_home_ownership_RENT" required="required" />
+     <input type="text" name="l" placeholder="loan_intent_DEBTCONSOLIDATION" required="required" />
+     <input type="text" name="m" placeholder="loan_intent_EDUCATION" required="required" />
+     <input type="text" name="n" placeholder="loan_intent_HOMEIMPROVEMENT" required="required" />
+     <input type="text" name="o" placeholder="loan_intent_MEDICAL" required="required" />
+     <input type="text" name="p" placeholder="loan_intent_PERSONAL" required="required" />
+     <input type="text" name="q" placeholder="loan_intent_VENTURE" required="required" />
+     <input type="text" name="r" placeholder="loan_grade_A" required="required" />
+     <input type="text" name="s" placeholder="loan_grade_B" required="required" />
+     <input type="text" name="t" placeholder="loan_grade_C" required="required" />
+     <input type="text" name="u" placeholder="loan_grade_D" required="required" />
+     <input type="text" name="v" placeholder="loan_grade_E" required="required" />
+     <input type="text" name="w" placeholder="loan_grade_F" required="required" />
+     <input type="text" name="x" placeholder="loan_grade_G" required="required" />
+     <input type="text" name="y" placeholder="cb_person_default_on_file_N" required="required" />
+     <input type="text" name="z" placeholder="cb_person_default_on_file_Y" required="required" />
+<button type="submit" class="btn">Predict </button>
+</form>
+
+<br>
+<br>
+</body>
+</html>
+
